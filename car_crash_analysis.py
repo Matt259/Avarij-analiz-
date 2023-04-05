@@ -26,7 +26,7 @@ def return_cleaned_df():
     df['time_of_day'] = df['time_of_day'].str.strip()
     
     return df
-
+#Changes the json names
 def change_json_name(cwd):
     pattern = re.compile(r'accidents_[0-9]{4}\.json')
     #rename the initial files
